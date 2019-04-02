@@ -34,6 +34,6 @@ if [ ! -e "$FILE_NAME" ]; then
 fi
 
 EXEC "vim $FILE_NAME"&
-EXEC "latexmk -pv $FILE_NAME"&
+EXEC "latexmk -pvc $FILE_NAME"&
 popd
 
